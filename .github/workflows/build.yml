@@ -17,6 +17,6 @@ jobs:
           java-version: 8
       - name: Run maven tests
         run: mvn --batch-mode --no-transfer-progress clean install
-        env:
-          BZ_TOKEN: ${{ secrets.BZ_TOKEN }}
-          OCTOPERF_API_KEY: ${{ secrets.OCTOPERF_API_KEY }}
+#        env:
+#          BZ_TOKEN: ${{ secrets.BZ_TOKEN }}
+#          OCTOPERF_API_KEY: ${{ secrets.OCTOPERF_API_KEY }}

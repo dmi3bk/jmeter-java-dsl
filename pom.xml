@@ -56,7 +56,7 @@
 
   <modules>
     <module>jmeter-java-dsl</module>
-    <module>jmeter-java-dsl-blazemeter</module>
+    <!-- <module>jmeter-java-dsl-blazemeter</module> -->
     <module>jmeter-java-dsl-elasticsearch-listener</module>
     <module>jmeter-java-dsl-dashboard</module>
     <module>jmeter-java-dsl-parallel</module>
@@ -64,7 +64,7 @@
     <module>jmeter-java-dsl-wrapper</module>
     <module>jmeter-java-dsl-jmx2dsl</module>
     <module>jmeter-java-dsl-graphql</module>
-    <module>jmeter-java-dsl-octoperf</module>
+    <!-- <module>jmeter-java-dsl-octoperf</module> -->
   </modules>
 
   <dependencyManagement>
